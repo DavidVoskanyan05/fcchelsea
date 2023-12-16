@@ -1,0 +1,94 @@
+{
+    "prev1" : {
+        "date" : "19.12.2023, 23:00",
+        "firstTeam":"Челси",
+        "firstTeamImg":"img/logo.png",
+        "firstTeamTotal": "-",
+        "secondTeam":"Ньюкасл",
+        "secondTeamImg":"img/teams/newcastle.jpg",
+        "secondTeamTotal": "-",
+        "seasone":"Кубок Лиги - 1/4"
+
+    },
+    "prev2" : {
+        "date" : "24.12.2023, 16:00",
+        "firstTeam":"Челси",
+        "firstTeamImg":"img/logo.png",
+        "firstTeamTotal": "-",
+        "secondTeam":"Вулверхэмпт.",
+        "secondTeamImg":"img/teams/Wulv.png",
+        "secondTeamTotal": "-",
+        "seasone":"Кубок Лиги - 1/4"
+    },
+    "prev20" : {
+        "date" : "16.12.2023, 18:00",
+        "firstTeam":"Челси",
+        "firstTeamImg":"img/logo.png",
+        "firstTeamTotal": "2",
+        "secondTeam":"Шеффилд",
+        "secondTeamImg":"img/teams/Sheffield.png",
+        "secondTeamTotal": "0",
+        "seasone":"Премьер-Лига - 17 Тур"
+
+    },
+    "prev3" : {
+        "date" : "10.12.2023, 17:00",
+        "firstTeam":"Челси",
+        "firstTeamImg":"img/logo.png",
+        "firstTeamTotal": "0",
+        "secondTeam":"Эвертон",
+        "secondTeamImg":"img/teams/everton.png",
+        "secondTeamTotal": "2",
+        "seasone":"Премьер-Лига - 16 Тур"
+    },
+    "prev4" : {
+        "date" : "06.12.2023, 23:15",
+        "firstTeam":"Челси",
+        "firstTeamImg":"img/logo.png",
+        "firstTeamTotal": "1",
+        "secondTeam":"Манчестер",
+        "secondTeamImg":"img/teams/manunited.png",
+        "secondTeamTotal": "2",
+        "seasone":"Премьер-Лига - 15 Тур"
+    },
+    "prev5" : {
+        "date" : "03.12.2023, 17:00",
+        "firstTeam":"Челси",
+        "firstTeamImg":"img/logo.png",
+        "firstTeamTotal": "3",
+        "secondTeam":"Брайтон",
+        "secondTeamImg":"img/teams/Brayton.png",
+        "secondTeamTotal": "2",
+        "seasone":"Премьер-Лига - 14 Тур"
+    },
+    "prev6" : {
+        "date" : "25.11.2023, 18:00",
+        "firstTeam":"Челси",
+        "firstTeamImg":"img/logo.png",
+        "firstTeamTotal": "1",
+        "secondTeam":"Ньюкасл",
+        "secondTeamImg":"img/teams/newcastle.jpg",
+        "secondTeamTotal": "4",
+        "seasone":"Премьер-Лига - 13 Тур"
+    },
+    "prev7" : {
+        "date" : "12.11.2023, 19:30",
+        "firstTeam":"Челси",
+        "firstTeamImg":"img/logo.png",
+        "firstTeamTotal": "4",
+        "secondTeam":"Манчестер С.",
+        "secondTeamImg":"img/teams/city.png",
+        "secondTeamTotal": "4",
+        "seasone":"Премьер-Лига - 12 Тур"
+    },
+    "prev8" : {
+        "date" : "06.11.2023, 23:00",
+        "firstTeam":"Челси",
+        "firstTeamImg":"img/logo.png",
+        "firstTeamTotal": "4",
+        "secondTeam":"Тоттенхэм",
+        "secondTeamImg":"img/teams/TTX.png",
+        "secondTeamTotal": "1",
+        "seasone":"Премьер-Лига - 11 Тур"
+    }
+}

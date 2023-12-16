@@ -1,0 +1,431 @@
+@font-face {
+font-family: 'SF UI Display Heavy';
+src: url('./fonts/SF-UI-Display-Heavy.otf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: SF UI Display Heavy;
+    background-color:#F4F4F4;
+    padding-top: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #081224;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.header_logo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo_title {
+    margin-left: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.logo_img{
+    width: 40px;
+    height:40px;
+}
+
+.social_links{
+    color: white;
+}
+
+.menu_item {
+    color: #848992;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu_item:hover{
+    color:#ff0000;
+}
+
+.welcome{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#081224;
+    width: 100%;
+    padding: 30px 30px;
+}
+
+.prev{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#fff;
+    transition: 1s;
+}
+
+.last_news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.prev_p{
+    margin-top: 20px;
+    color:#848992;
+}
+
+.prev_oklub{
+    width: 150px;
+    text-align: center;
+}
+
+.wel{
+    color:#ff0000;
+    opacity: 0.8;
+}
+
+.prev_title{
+    font-size: 80px;
+}
+
+.last_news_item_img{
+    height: auto;
+    width: 250px;
+}
+
+.last_news_item{
+    display: flex;
+    color:#fff;
+    margin-bottom: 30px;
+}
+.last_news_item_text{
+    margin: auto 20px;
+}
+.last_news_item:last-child{
+    margin-bottom: none;
+}
+.last_news_item_title{
+    text-decoration: none;
+    color:#fff;
+
+
+}
+.last_news_item_title:hover{
+    color: #ff0000;
+}
+.last_news_item_paragrap{
+    margin-top: 20px;
+    color:#848992;
+}
+.last_news_title{
+    margin-bottom: 10px;
+    text-decoration:underline;
+    color:#ff0000;
+    opacity: 0.8;
+}
+.prev_oklub{
+    text-decoration: none;
+    color:#fff;
+    background-color:#ff0000;
+    display: inline-block;    
+    margin-top: 20px;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+.prev_oklub:hover{
+    background-color:#fff;
+    color:#333;
+}
+
+/*  */
+.match_res{
+    width: 100%;
+    padding: 40px 40px;
+    background-color:#F4F4F4;
+}
+.res_uptitle{
+    display: block;
+    text-align: center;
+    color: #ff0000;
+    opacity: 0.8;
+}
+.restitle{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color:#262f3e;
+    margin-bottom: 40px;
+}
+/*  */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  @media only screen and (min-width: 769px) {
+    .swiper-slide:first-child {
+      transition: transform 100ms;
+    }
+
+    .swiper-slide.swiper-slide-active:first-child {
+      transform: transform 100ms;
+      z-index: 2;
+    }
+
+    .swiper-slide:nth-child(2) {
+      transition: transform 100ms;
+    }
+
+    .swiper-slide.swiper-slide-next:nth-child(2) {
+      transform: transform 100ms;
+      z-index: 1;
+    }
+
+    .swiper[dir="rtl"] .swiper-slide.swiper-slide-active:first-child {
+      transform: translateX(-50%);
+    }
+
+    .swiper[dir="rtl"] .swiper-slide.swiper-slide-next:nth-child(2) {
+      transform: translateX(-55%);
+    }
+  }
+.swiper-pagination{
+    position: relative;
+}
+/*  */
+
+
+.match_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+.slide-content{
+    margin-top: 40px;
+    background-color: #262f3e;
+}
+
+.match_next{
+    max-width: 400px;
+    background-color:#fff;
+    padding: 20px 20px;
+    margin-right: 30px;
+}
+.match_time{
+    display: block;
+    text-align: center;
+}
+.teams{
+    display: flex;
+    padding: 20px;
+}
+.team_first_img{
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+}
+.team_two_img{
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+}
+.team_first{
+    display: flex;
+    align-items:center;
+    margin-right: 15px;
+}
+.team_two{
+    display: flex;
+    align-items:center;
+}
+.match_sesone{
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+.news{
+    max-width: 1200px;
+    margin: 80px auto;
+}
+.news_uptitle{
+    color: #ff0000;
+    opacity: 0.8;
+}
+.news_title{
+    font-size: 40px;
+    color:#262f3e;
+    margin: 15px 0;
+}
+.news_colum{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.news_item{
+    display: flex;
+    max-width: 590px;
+    background-color:#fff;
+    margin-bottom: 70px;
+    justify-content: space-between;
+}
+.news_item:last-child{
+    margin-bottom: 0!important;
+}
+.news_item_img{
+    height: auto;
+    width: 250px;
+}
+.news_item_content{
+    margin: 40px 30px;
+}
+.news_date{
+    display: block;
+    color: #ff0000;
+    opacity: 0.8;
+    font-size: 13px;
+    
+}
+.news_item_title{
+    display: block;
+    text-decoration: none;
+    color:#262f3e;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.news_item_title:hover{
+    color:#000;
+}
+.news_item_text{
+    color:#797e87;
+    font-size: 13px;
+}
+.news_right{
+    max-width: 600px;
+    background-color:#fff;
+    height: auto;
+}
+.right_news_img{
+    height: auto;
+    width: 600px;
+}
+.right_news_date{
+    display: block;
+    color: #ff0000;
+    opacity: 0.8;
+    font-size: 13px;
+}
+.right_news_title{
+    display: block;
+    text-decoration: none;
+    color:#262f3e;
+    font-size: 25px;
+    margin: 10px 0;
+}
+.news_right_content{
+    margin: 20px 20px 0 20px;
+}
+.table{
+    background-color:#fff;
+    padding-bottom: 80px;
+}
+.scr365_wgt{
+    min-width: 800px;
+}
+.scr365_wgt.soccer365_widget12tb_table .wgt_hd{
+    display: flex;
+    justify-content: right;
+    
+}
+.soccer365_widget12tb_ft{
+    display: none!important;
+}
+.wgt_hd .soccer365_widget12tb_table_club{
+    display:none;
+}
+.table_uptitle{
+    display: block;
+    text-align: center;
+    color: #ff0000;
+    opacity: 0.8;
+    padding-top: 50px;
+}
+.table_title{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color:#262f3e;
+    margin-bottom: 80px;
+}
+.table_item{
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer{
+    background-color:#081224;
+    color:#fff;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_social{
+    display: flex;
+}
+.social_link{
+    text-decoration: none;
+    color:#fff;
+}
+.social_item{
+   margin-right: 40px; 
+}
+.scr365_wgt a:link, .scr365_wgt a:visited{
+    pointer-events: none; 
+    cursor: default; 
+}
+
+@media screen and (max-width: 1140px){
+    .prev_title{
+        font-size: 60px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .welcome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .prev{
+        margin-bottom: 50px;
+    }
+}
